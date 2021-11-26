@@ -19,18 +19,38 @@ public class Ex12 {
 		int num2 = sc.nextInt();
 		
 		if(symbol == "*") {
+			System.out.println(num1*num2);
+		}else if(symbol =="/") {
+			System.out.println(num1/num2);
+		}else if(symbol =="+") {
+			System.out.println(num1+num2);
+		}else if(symbol =="-") {
+			System.out.println(num1-num2);
+		}System.out.print("결과는: ");
+			
+		
+		
+		
+		
+		
+		
+		/*
+		if(symbol == "*") {
 			System.out.println(num1 * num2);
-		}else if(symbol == "/") {
-			System.out.println(num1 / num2);
-		}else if(symbol == "+") {
-			System.out.println(num1 + num2);
-		}else if(symbol == "-") {
-			System.out.println(num1 - num2);
-		}
-
-		System.out.println("결과는: "+ num1*num2);
+		}System.out.println("결과는: "+ num1*num2);
+	
+		if(symbol == "/") {
+			System.out.println(num1/num2);
+		}System.out.println("결과는: "+num1/num2);
 		
+		if(symbol == "+") {
+			System.out.println(num1+num2);
+		}System.out.println("결과는: "+(num1+num2));
 		
+		if(symbol == "-") {
+			System.out.println(num1-num2);
+		}System.out.println("결과는: "+(num1-num2));
+		*/
 		
 		
 		
