@@ -14,8 +14,9 @@ public class Ex04 {
 		if(19<=age && age<65) {
 			System.out.println("1번그룹");
 		}else {
-			System.out.println("2번그룹");
+			System.out.print("2번그룹");
 		}
+		System.out.println("입니다.");
 		
 		
 		
