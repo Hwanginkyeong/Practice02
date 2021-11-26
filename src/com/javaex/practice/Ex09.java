@@ -16,14 +16,28 @@ public class Ex09 {
 		int num2 = sc.nextInt();
 		
 		
-		//if()
+		if(num1%num2 ==0) {
+			if(num1>num2) {
+				System.out.println(num2 +"는(은) "+num1 + "의 약수입니다.");
+			}else {
+				System.out.println(num1 +"는(은) "+num2 + "의 약수입니다.");
+			}
+		}else if(num2%num1==0) {
+			if(num1>num2) {
+				System.out.println(num2 +"는(은) "+num1 + "의 약수입니다.");
+			}else {
+				System.out.println(num1 +"는(은) "+num2 + "의 약수입니다.");
+			}
+		}else {
+			if(num1>num2) {
+				System.out.println(num2 +"는(은) "+num1 + "의 약수가 아닙니다.");
+			}else {
+				System.out.println(num1 +"는(은) "+num2 + "의 약수가 아닙니다.");
+			}
+		}
 		
 		
-		
-		
-		
-		
-		
+		/* 실패한 흔적 
 		
 		if(num1>num2) {
 			if(num1%num2 ==0) {
@@ -40,10 +54,6 @@ public class Ex09 {
 		}
 		
 		
-		
-		
-		
-		
 		if(num1 % num2 ==0) {
 			System.out.print(num1 + "는(은)"+ num2 +"의 약수입니다.");
 		}else if(num2 % num1 ==0){
@@ -51,7 +61,7 @@ public class Ex09 {
 		}else if(num2 % num1 ==0){
 			System.out.println(num1 + "는(은)"+ num2 +"의 약수가 아닙니다.");
 		}
-		
+		*/
 		
 		
 		
